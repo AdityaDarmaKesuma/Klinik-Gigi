@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data_Dokter</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="shortcut icon" type="image/icon" href="img/tot.webp">
+  <style>
+    .baru{
+      background-color: var(--blue);
+    }
+
+    #bg{
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,212,255,1) 100%);
+      height: 10vh;
+    }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="img/Picsart_23-01-21_11-55-56-888.png" alt="" width="50px" height="50px">
+      <span class="brand-text font-weight-light">KLINIK GIGI</span>
+    </a>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <img src="img/tot.webp" alt="" width="50px" height="50px">
+        <div text-align="center">
+          <a href="#" class="d-block">Klinik Ananda Dentist</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="content">
+        <div class="container-fluid border">
+          <div>
+            <ul>
+              <li style="color: white;">
+                <a href="booking.html">Booking</a>
+              </li>
+              <hr color="white" width="100%">
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li style="color: white;">
+                <a href="data_dokter.html">Dokter</a>
+              </li>
+              <li style="color: white;">
+                <a href="layanan.html">Produk/Layanan</a>
+              </li>
+              <hr color="white" width="100%">
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li style="color: white;">
+                <a href="index.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+  
+  <!-- Content Wrapper. Contains page content -->
+  <h2 align="center" id="bg">
+    Admin - Klinik Ananda Dentist - Depok
+  </h2>
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <br>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="login.html">Login</a></button>
+      </form>
+    </nav>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid border">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>
+                Kelola Data Dokter
+              </h3> 
+              <button type="button" class="btn btn-outline-info btn-md">
+                Tambah
+              </button>
+            </div>
+            <div class="col-md-6">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="admin_klinik.html">Admin</a>
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Data Dokter
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>
+                  No
+                </th>
+                <th>
+                  Nama Dokter
+                </th>
+                <th>
+                  Gender
+                </th>
+                <th>
+                  Keahlian
+                </th>
+                <th>
+                  Telpon
+                </th>
+                <th>
+                  Action
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <td>
+                  1
+                </td>
+                <td>
+                  Drg. Amelia
+                </td>
+                <td>
+                 Perempuan
+                </td>
+                <td>
+                  Spesialis Gigi Anak
+                </td>
+                <td>
+                  084123132234
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr class="table-success">
+                <td>
+                  2
+                </td>
+                <td>
+                  Drg. Permata Sari
+                </td>
+                <td>
+                  Perempuan
+                </td>
+                <td>
+                  Pembersih Gigi
+                </td>
+                <td>
+                  082139890921
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <td>
+                  3
+                </td>
+                <td>
+                 Drg. Calvin William
+                </td>
+                <td>
+                  Laki - Laki
+                </td>
+                <td>
+                  Spesialis Behel
+                </td>
+                <td>
+                  082234567890
+                </td>
+                <td>
+                  -
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <td>
+                  4
+                </td>
+                <td>
+                  Drg. Val Digantara
+                </td>
+                <td>
+                Laki-Laki
+                </td>
+                <td>
+                  Perawatan Gigi
+                </td>
+                <td>
+                  082173505575
+                </td>
+                <td>
+                  -
+                </td>
+                
+              </tr>
+              <tr class="table-warning">
+                <td>
+                  5
+                </td>
+                <td>
+                  Drg. Intan Maharani
+                </td>
+                <td>
+                  Perempuan
+                </td>
+                <td>
+                  Tambal Gigi
+                </td>
+                <td>
+                  082122765645
+                </td>
+                <td>
+                  -
+                </td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer class="text-center bg-light"">
+          <div class="baru">
+              <h4 class="mt-2">Klinik Dentist</h4>
+              <p>Responsibility & Tips And Guide & Media Community</p>
+              <hr>
+              <div class="mb-3">
+                  <a href="#"><i style="color: black;" class="fab fa-facebook mr-2"></i></a>
+                  <a href="#"><i style="color: black;" class="fab fa-instagram mr-2"></i></a></i>
+                  <a href="#"><i style="color: black;" class="fab fa-twitter mr-2"></i></a></i>
+                  <a href="#"><i style="color: black;" class="fab fa-youtube mr-2"></i></a></i>
+              </div>
+              <font><span> © 2022 Mahasiswa Nurul Fikri – All rights reserved</span> General Terms & Conditions Legal notice
+                  Privacy Policy Contact form</font>
+                  <br><br>
+          </div>
+      </footer>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+ 
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
